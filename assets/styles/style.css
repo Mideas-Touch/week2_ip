@@ -2,19 +2,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Poppins:wght@300&display=swap');
 
 body {
-     background-color: ;
+     background-color: black ;
 }
 
 header {
      display: block;
 }
 
-.top-container {
+.top_container {
      display: flex;
      max-width: 100%;
      justify-content: space-around;
-     margin: 5px;
-     padding: 10px;
+     margin-left: 80px;
+     margin-right: 80px;
+     padding: 20px;
      border-bottom: 5px solid black;
 
 }
@@ -22,11 +23,13 @@ header {
 #homeicon {
      font-family: 'Inter', sans-serif;
      font-size: 28pt;
+     color: whitesmoke;
 }
 
 #start {
      font-family: 'Inter', sans-serif;
      font-size: 14pt;
+     color: whitesmoke;
      position: relative;
      top: 20px;
 }
@@ -35,6 +38,7 @@ header {
      display: flex;
      font-family: 'Inter', sans-serif;
      font-size: 12pt;
+     color: whitesmoke;
      width: 80px;
      padding:5px;
      flex-flow: nowrap;
@@ -48,6 +52,7 @@ header {
 #login {
      font-family: 'Inter', sans-serif;
      font-size: 14pt;
+     color: whitesmoke;
      position: relative;
      top: 20px;
      left: 310px;
@@ -60,12 +65,12 @@ header {
 #start {
      font-family: 'Inter', sans-serif;
      font-size: 18pt;
+     color: whitesmoke;
 }
 
 #home, #about, #products, #contacts {
      position: relative;
      width: 50px;
-     flex-shrink: ;
      padding-left: 50px;
      padding-right: 50px;
      margin-top: 10px;
@@ -76,15 +81,23 @@ header {
      padding-right: 40px;
 }
 
-.background {
-     width: 100;
-     height: fit-content;
+#background_container {
+     background-image: url(https://ibb.co/LkFQsM7);
+     height:400px;
+     /* background-color: #ED661F; */
+     background-repeat: no-repeat;
+     /* background-position: center; */
+     background-size: cover;
+}
+
+#background_container {
+     width: 1300px;
+     height: 400px;
      position: absolute;
      padding: 50px;
      margin: 5px;
      top: 100px;
-     left: 300px;
-     background-image: url(https://ibb.co/LkFQsM7) repeat 0 0;
+     left: 280px;
 
 }
 
@@ -95,9 +108,11 @@ background:first-child {
 
 h2 {
      font-size: 14pt;
+     color: whitesmoke;
 }
 
 h3 {
+     color: whitesmoke;
      position: relative;
      width: 180px;
      top: 15px;
