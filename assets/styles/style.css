@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Poppins:wght@300&display=swap');
 
-body {
+/* body {
      background-color: black ;
-}
+} */
 
 header {
      display: block;
@@ -127,3 +127,36 @@ h3 {
 /* .img {
      background-image: url(https://ibb.co/LkFQsM7);
 } */
+
+/* .customers {
+     background-color: #ED661F;
+     display: flex;
+     align-content: center;
+     position: absolute;
+     justify-content: space-evenly;
+     font-family: 'Inter', sans-serif;
+     font-size: 12pt;
+     margin: 2px;
+     border: 1px;
+     padding: 10px;
+     padding-bottom: 1px;
+     width: 550px;
+     height: 300px;
+     text-align: center;
+} */
+
+span {
+     display: block;
+     /* word-wrap: break-word; */
+     /* width: 150px; */
+     white-space: normal;
+}
+
+table {
+     font-family: 'Inter', sans-serif;
+     font-size: 12pt;
+     border-collapse: collapse;
+     text-align: center;
+     width: 550px;
+     height: 300px;
+}
