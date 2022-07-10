@@ -1,5 +1,12 @@
-.h1 {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 20pt;
-    color:#ED661F;
+header {
+     display: block;
 }
+
+.top-container {
+     display: flex;
+     justify-content: space-evenly;
+}
+
+/* .img {
+     background-image: url(https://ibb.co/LkFQsM7);
+} */
