@@ -13,23 +13,26 @@ main {
      max-width: 90%;
      height: fit-content;
 }
-
+/* 
 .top_container {
-     display: flex;
      max-width: 100%;
      max-height: 100px;
-     justify-content: space-around;
+     /* justify-content: space-around;
      margin-left: 150px;
      margin-right: 80px;
-     padding: 20px;
-     /* border-bottom: 5px solid black; */
+     padding: 20px; */
+     border-bottom: 5px solid black;
 
+} */
+
+.top-container {
+     text-align: left;
 }
 
 #homeicon {
      font-family: 'Inter', sans-serif;
      font-size: 28pt;
-     color: whitesmoke;
+     color: rgb(0, 0, 0);
 }
 
 #start {
@@ -41,8 +44,8 @@ main {
      left: 500px;
 }
 
-.homelinks {
-     display: flex;
+/* .homelinks {
+     /* display: flex; */
      font-family: 'Inter', sans-serif;
      font-size: 12pt;
      color: whitesmoke;
@@ -54,7 +57,7 @@ main {
      left: 500px;
      justify-content: space-between;
      letter-spacing: 1px;
-}
+} */
 
 #login {
      font-family: 'Inter', sans-serif;
@@ -77,11 +80,17 @@ main {
 }
 
 #home, #about, #products, #contacts {
+
      position: relative;
-     width: 50px;
-     padding-left: 50px;
+     float: right;
+     font-family: 'Inter', sans-serif;
+     font-size: 18pt;
+     margin-right: 50px;
+     padding: 20px;
+     width: 600px;
+     /* padding-left: 50px;
      padding-right: 50px;
-     margin-top: 10px;
+     margin-top: 10px; */
 }
 
 #login {
@@ -167,8 +176,8 @@ span {
 } */
 
 
-.why {
-     display: grid;
+/* .why {
+     display: grid; */
      justify-content:left;
      width:fit-content;
      padding: 10px 10px;
