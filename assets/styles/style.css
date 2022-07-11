@@ -1,22 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Poppins:wght@300&display=swap');
 
-body {
+/* body {
      background-color: black ;
-}
+} */
 
 header {
      display: block;
+}
+main {
+     display: flex;
+     max-width: 90%;
+     height: fit-content;
 }
 
 .top_container {
      display: flex;
      max-width: 100%;
+     max-height: 100px;
      justify-content: space-around;
-     margin-left: 80px;
+     margin-left: 150px;
      margin-right: 80px;
      padding: 20px;
-     border-bottom: 5px solid black;
+     /* border-bottom: 5px solid black; */
 
 }
 
@@ -66,6 +72,7 @@ header {
 #start {
      font-family: 'Inter', sans-serif;
      font-size: 18pt;
+     margin-right: 50px;
      color: whitesmoke;
 }
 
@@ -82,24 +89,16 @@ header {
      padding-right: 40px;
 }
 
-#background_container {
-     background-image: url(https://ibb.co/LkFQsM7);
-     /* height:400px; */
-     /* background-color: #ED661F; */
-     background-repeat: no-repeat;
-     /* background-position: center; */
-     background-size: cover;
-}
 
 .background_container {
-     background-color: #8f4d29;
-     width: 1300px;
+     width: 1000px;
      height: 400px;
      position: absolute;
-     padding: 50px;
+     /* padding: 50px; */
      margin: 5px;
-     top: 100px;
+     top: 120px;
      left: 280px;
+     
 
 }
 
@@ -166,3 +165,48 @@ span {
      width: 550px;
      height: 300px;
 } */
+
+
+.why {
+     display: grid;
+     justify-content:left;
+     width:fit-content;
+     padding: 10px 10px;
+     max-height: 500px;
+     grid-gap: 10px 10px;
+     padding: 20px;
+     text-align: left;
+     position: absolute;
+     left: 80px;
+     top: 200px;
+     top: 3 ems;
+     grid-template-columns: 500px 450px;
+     grid-template-rows: 40px;
+     align-items: center;
+     justify-content: flex-start;
+    
+    
+}
+em {
+     position:absolute;
+     top: 50px;
+}
+
+.why > h {
+     margin: 5px;
+     padding: 10px;
+     font-family: "inter" 'sans-serif';
+     font-size: 18pt;
+     color: solid black;
+     font-weight: 700;
+
+
+}
+
+
+#img3 {
+     width: 400px;
+     height: 250px;
+     padding: 20px;
+     float: right;
+}
