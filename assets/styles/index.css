@@ -3,16 +3,21 @@
 
 main {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     /* align-content: flex-start; */
     align-content: flex-start;
     flex-wrap: wrap;
     max-width: 100%;
-    max-height: fit-content;
-    margin: 150px;
+   
 }
 
 .top_container {
+    width: 80%;
+    max-height: fit-content;
+}
+
+/* .top_container {
+    position: inherit;
     max-width: 80%;
     font-family: 'inter','sans serif';
     max-height: 100px;
@@ -24,5 +29,24 @@ main {
 }
 
 #homeicon {
+    margin: 5px;
+    padding: 10px;
+    font-size: 28pt;
+    font-weight: 700;
+    position: relative;
+    bottom: 20px;
+    left: 2em;
 
 }
+
+#about {
+    position: relative;
+    bottom: 20px;
+    line-height: 1em;
+}
+
+
+em {
+    display: block;
+    font-size: 10px;
+} */
