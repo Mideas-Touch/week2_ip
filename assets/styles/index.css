@@ -277,6 +277,27 @@ rem {
     line-height: 30px;
 
 }
+
+.popular {
+    display: flex;
+    max-width: 100%;
+    position: relative;
+    top: 40vh;
+    justify-content: space-evenly;
+    
+}
+
+.popular  h {
+    position: relative;
+    top: 20px;
+    font-family: "Inter", 'sans-serif';
+    font-size: 20pt;
+}
+
+#carrots, #cereals, #sukuma #fish {
+    width: 400px;
+    height: 350px;
+}
 /* .top_container {
     position: inherit;
     max-width: 80%;
