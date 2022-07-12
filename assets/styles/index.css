@@ -3,17 +3,39 @@
 
 main {
     display: flex;
-    justify-content: center;
+    position: relative;
+    /* height: 200vh; */
+    justify-content:flex-start;
+    align-items: center;
     /* align-content: flex-start; */
-    align-content: flex-start;
     flex-wrap: wrap;
-    max-width: 100%;
    
 }
 
 .top_container {
-    width: 80%;
-    max-height: fit-content;
+    align-items: flex-start;
+    /* width: 80%; */
+    position: absolute;
+    min-height: 200px;
+}
+
+/* .flexbox-item {
+    width: 200px;
+    align-content: flex-start;
+    font: 'inter', 'sans serif';
+    margin: 10px;
+} */
+
+.flexbox-item > agri {
+    font-size: 18pt;
+}
+
+#img3 {
+    position: relative;
+    width: 400px;
+    height: 250px;
+    padding: 20px;
+    float: right;
 }
 
 /* .top_container {
