@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Poppins:wght@300&display=swap');
 
-main {
+/* main {
     display: flex;
     position: relative;
     /* height: 200vh; */
@@ -10,14 +10,94 @@ main {
     /* align-content: flex-start; */
     flex-wrap: wrap;
    
+} */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* background-color:blue; */
+
 }
 
-.top_container {
-    align-items: flex-start;
-    /* width: 80%; */
-    position: absolute;
-    min-height: 200px;
+/* em {
+    font-size: 12pt;
+} */
+
+li, a, button {
+    font-family: "inter", sans-serif;
+    font-weight: 500;
+    font-size: 18pt;
+    color: #ffffff;
+    text-decoration: none;
 }
+
+header {
+    display: flex;
+    background-color: black;
+    max-width: 100%;
+    max-height: 100px;
+    position: relative;
+    /* left: 2vw; */
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 10px;
+}
+
+.login {
+    position: relative;
+    left: 4vw;
+}
+
+.start {
+    position: relative;
+    background-color: #ED661F;
+    margin: 10px 5px;
+    padding: 20px;
+    border: 2px;
+    
+}
+
+.logo {
+    cursor: pointer;
+    font-family: "inter", 'sans-serif';
+    font-size: 28pt;
+    color: #ffffff;
+    font-weight: 700;   
+
+}
+
+.nav_links {
+    list-style: none;
+
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li as {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    color: #24252A;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: black;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgb(172, 169, 169);
+}
+
 
 /* .flexbox-item {
     width: 200px;
@@ -26,8 +106,43 @@ main {
     margin: 10px;
 } */
 
-.flexbox-item > agri {
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.flexbox-item {
+    max-width: 100%;
+    height: max-content;
     font-size: 18pt;
+}
+
+h1{
+    position: relative;
+    top: 3vh;
+    font-family: 'Inter', sans-serif;
+    font-size: 24pt;
+    height: 150px;
+}
+
+h2 {
+    position: relative;
+    top: 5vh;
+    font-size: 18pt;
+    color: rgb(0, 0, 0);
+}
+
+h3 {
+    color: whitesmoke;
+    position: relative;
+    width: 180px;
+    top: 50px;
+    text-align:center;
+    background-color: #ED661F;
+    padding: 30px;
+    padding-left: 1px;
+    padding-right: 1px;
+    /* padding: 25px 0px 20px 25px; */
 }
 
 #img3 {
