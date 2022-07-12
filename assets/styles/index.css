@@ -177,7 +177,7 @@ span {
      /* justify-content: space-around; */
      position: relative;
      /* word-wrap: break-word; */
-     height: 50px;
+     height: 20px;
      white-space: normal;
 }
 
@@ -269,10 +269,21 @@ rem {
     font-weight: 700;
     font-size: 28pt;
 }
-
-.categories > p {
+.categories > p{
     font-family: "Inter", 'sans-serif';
     font-size: 18pt;
+    text-align: left;
+    color: #616464;
+    line-height: 30px;
+}
+
+.items > p {
+    max-width:250px;
+    max-height: 80px;
+    word-wrap: wrap;
+    font-family: "Inter", 'sans-serif';
+    font-size: 18pt;
+    text-align: left;
     color: #616464;
     line-height: 30px;
 
@@ -280,10 +291,13 @@ rem {
 
 .popular {
     display: flex;
-    max-width: 100%;
+    flex-direction: row;
+    max-width: 40%;
     position: relative;
-    top: 40vh;
-    justify-content: space-evenly;
+    left: 30vw;
+    padding: 40px;
+    top:40vh;
+    justify-content:space-around;
     
 }
 
@@ -298,6 +312,77 @@ rem {
     width: 400px;
     height: 350px;
 }
+
+#chicken, #rice, #dairy, #tomatoe {
+    width: 400px;
+    height: 350px;
+}
+
+.m-popular {
+    font-family: "Inter", 'sans-serif';
+    font-size: 28pt;
+    font-weight: 700;
+    position: relative;
+    top: 40vh;
+    left: 7vw;
+    border-bottom: 5px;
+}
+.categories {
+    display:flex; 
+    justify-content: flex-start;
+    position: relative;
+   
+}
+.items {
+    position: relative;
+    top: 20vh;
+    left: -8vw;
+}
+
+.newest {
+    display:flex;
+    max-width: 40%;
+    position: relative;
+    left: 25vw;
+    font-size: 20pt;
+    font-weight: 700;
+    padding: 50px 10px;
+    top:60vh;
+    justify-content:space-around;
+
+}
+
+.newest > h {
+    position: absolute;
+    font-family: "Inter", 'sans-serif';
+    font-size: 20pt;
+    left: -19vw;
+    top: 0px;
+    font-family: "Inter", 'sans-serif';
+    font-size: 20pt;
+}
+
+.customer-feedback {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 40%;
+    height: 600px;
+    position: absolute;
+    left: -100vw;
+    top: 80vh;
+}
+
+#feedback1, #feedback2, #feedback3 {
+    width: 50px;
+    height: 50px;
+    float: inline-end;
+}
+
+
+
+
+
 /* .top_container {
     position: inherit;
     max-width: 80%;
